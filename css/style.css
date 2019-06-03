@@ -1,0 +1,64 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #0a0604;
+}
+
+.bg0{
+    background-image: url(../imgs/bg0.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 2407px;
+    position: relative;
+    z-index: 0;
+}
+
+.bg1{
+    background-image: url(../imgs/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 1123px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.bg2{
+    background-image: url(../imgs/bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 942px;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+
+.bg2:after{
+    display: block;
+    content: '';
+    height: 700px;
+    background: #0a0604;
+    width: 100%;
+    position: absolute;
+    bottom: -690px;
+}
+
+#trigger1{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 800px;
+}
+
+#trigger2{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 1000px;
+}
